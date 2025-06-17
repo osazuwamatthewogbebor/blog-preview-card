@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+   --Yellow: hsl(47, 88%, 63%);
+   --White: hsl(0, 0%, 100%);
+   --Gray500: hsl(0, 0%, 42%);
+   --Gray950: hsl(0, 0%, 7%)
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--Yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 0.5rem;
+}
+
+.card {
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    border-radius: 10px;
+    padding: .9rem;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0px 0px;
+}
+
+.illustration {
+    border-radius: 10px;
+    margin-bottom: .7rem;
+    width: 100%;
+}
+
+.btn {
+    background-color: var(--Yellow);
+    padding: .4em .6rem;
+    border: 0;
+    border-radius: 3px;
+    font-weight: 900;
+    font-size: .5rem;
+}
+
+.date {
+    color: var(--Gray950);
+    margin-bottom: 0;
+    font-size: .6rem;
+}
+
+.title {
+    margin-top: .6rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.title:hover {
+    color: var(--Yellow);
+}
+.ptext {
+    color: var(--Gray500);
+    margin-top: .5rem;
+    line-height: 1.5;
+    font-size: .64rem;
+}
+
+.profile {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    font-size: .45rem;
+    font-weight: 900;
+}
+
+.avatar {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: .3rem;
+    margin-bottom: -.7rem;
+    font-size: .56rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Gray500);
+}
+ a:hover {
+    color: var(--Yellow);
+ }
+ a:visited {
+    color: var(--Gray950);
+ }
+
+
+@media(max-width: 600px) {
+    body {
+    font-size: 1rem;
+}
+
+.card {
+    min-width: 250px;
+    border-radius: 20px;
+    padding: 1.25rem;
+    border: 1px solid black;
+    box-shadow: 7px 7px 0px 0px;
+}
+
+.illustration {
+    margin-bottom: 1.4rem;
+}
+
+.btn {
+    padding: .4em .5rem;
+    font-size: .6rem;
+    border-radius: 4px;
+}
+
+.date {
+    font-size: .8rem;
+}
+
+.title {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.ptext {
+    margin-top: .9rem;
+    line-height: 1.5;
+    font-size: .8rem;
+}
+
+.profile {
+    font-size: .55rem;
+    gap: .8rem;
+}
+
+.avatar {
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+}
