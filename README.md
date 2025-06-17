@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://raw.githubusercontent.com/osazuwamatthewogbebor/blog-preview-card/screenshot.jpg)
+![](https://raw.githubusercontent.com/osazuwamatthewogbebor/blog-preview-card/preview-card-screenshot.png)
 
 
 ### Links
